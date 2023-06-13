@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hotel__img" data-aos="fade-up" data-aos-duration="3000">
+      <img src="./public/img/img-1.jpg" alt="" class="hotel__img--1" />
+      <img src="./public/img/img-2.jpg" alt="" class="hotel__img--2" />
+      <img src="./public/img/img-3.jpg" alt="" class="hotel__img--3" />
+      <img src="./public/img/img-4.jpg" alt="" class="hotel__img--4" />
+      <img src="./public/img/img-5.jpg" alt="" class="hotel__img--5" />
+      <img src="./public/img/img-6.jpg" alt="" class="hotel__img--6" />
+    </section>
+    <img src="./public/svg/logo.svg" alt="" class="hotel__logo-img" />
+    <header class="hotel__header-mobi">
+      <i class="fa-solid fa-bars"></i>
+      <img src="./public/svg/logo-icon.svg" alt="" class="hotel__logo-mobi" />
+      <a href="#contact"
+        ><button class="hotel__main-container--left-btn">Đặt phòng</button></a
+      >
+      <div class="hotel__header-mobi-menu">
+        <a href="#about" class="remove-menu-mobile">Về chúng tôi</a>
+        <a href="#rooms" class="remove-menu-mobile">Gian phòng</a>
+        <a href="#facilities" class="remove-menu-mobile">Tiện nghi</a>
+        <a href="#contact" class="remove-menu-mobile">Liên hệ</a>
+      </div>
+    </header>
+    <section class="hotel__main">
+      <div
+        class="hotel__main-top"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-offset="3000"
+      >
+        <div class="hotel__main-time">
+          <img src="./public/svg/sun.svg" alt="" class="hotel__main-time-sun" />
+          <div class="hotel__main-time-text">
+            <h3>Sơn Trà, Đà Nẵng</h3>
+            <div class="hotel__main-time-text-content">
+              <h3 class="hotel__main-time-text-time"></h3>
+              <h3 class="hotel__main-time-text-c"></h3>
+            </div>
+          </div>
+        </div>
+        <a href="./index.html"
+          ><img
+            src="./public/svg/logo-icon.svg"
+            alt=""
+            class="hotel__main-logo"
+        /></a>
+        <div class="hotel__main-language">
+          <a href="./public/pages/english/index.html"
+            ><h3 class="heading-3">EN</h3></a
+          >
+          <span>VN</span>
+          <a href="./public/pages/koria/index.html"
+            ><h3 class="heading-3">KO</h3></a
+          >
+        </div>
+      </div>
+      <div class="hotel__main-hero">
+        <img src="./public/img/img-2.jpg" alt="" class="hotel__main-hero-img" />
+        <img src="./public/svg/logo.svg" alt="" class="hotel__main-hero-logo" />
+      </div>
+      <div class="hotel__main-container">
+        <div
+          class="hotel__main-container--left"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="3000"
+        >
+          <div></div>
+          <div class="hotel__main-container-menu">
+            <a class="hotel__main-container-type" href="#about" data-id="about">
+              <p class="hotel__main-container-num">01</p>
+              <p class="hotel__main-container-title">Về chúng tôi</p>
+            </a>
+            <a class="hotel__main-container-type" href="#rooms" data-id="rooms">
+              <p class="hotel__main-container-num">02</p>
+              <p class="hotel__main-container-title">Gian phòng</p>
+            </a>
+            <a
+              class="hotel__main-container-type"
+              href="#facilities"
+              data-id="facilities"
+            >
+              <p class="hotel__main-container-num">03</p>
+              <p class="hotel__main-container-title">Tiện nghi</p>
+            </a>
+            <a
+              class="hotel__main-container-type"
+              href="#contact"
+              data-id="contact"
+            >
+              <p class="hotel__main-container-num">04</p>
+              <p class="hotel__main-container-title">Liên hệ</p>
+            </a>
+          </div>
+          <a href="#contact"
+            ><button class="hotel__main-container--left-btn">
+              Đặt phòng
+            </button></a
+          >
+        </div>
+        <div class="hotel__main-container--right">
+          <div
+            class="hotel__main-container-about"
+            id="about"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <h1 class="heading-1 hotel__main-container-about-heading">
+              Một không gian ôm trọn nhiều cảm nghiệm cùng lối sống giản dị.
+            </h1>
+            <div class="hotel__main-container-about-content">
+              <div class="hotel__main-container-about-title--1">
+                <div class="hotel__main-container-about-text">
+                  <div class="hotel__main-container-about-text--1">
+                    <p>
+                      So với việc ở khách sạn, The Nắng Suites có trải nghiệm
+                      rất riêng. Đây không chỉ là nơi để lưu trú, mà bạn có thể
+                      thong thả nghỉ ngơi và có những cuộc gặp gỡ thú vị. Nơi
+                      này được tạo ra để những câu chuyện được kể và chia sẻ.
+                    </p>
+                  </div>
+                  <div class="hotel__main-container-about-text--2">
+                    <p>A project by <span>Alate</span></p>
+                    <p>
+                      Architecture & interior design by
+                      <span>o9 Studio</span> <br />
+                      Construction & management by Pepper Builders & Makers
+                    </p>
+                    <p>Identity design by <span>Behalf Studio</span></p>
+                  </div>
+                </div>
+                <img
+                  src="./public/img/img-7.jpg"
+                  alt=""
+                  class="hotel__main-container-about-img--1"
+                />
+              </div>
+              <div class="hotel__main-container-about-title--2">
+                <img
+                  src="./public/img/img-8.jpg"
+                  alt=""
+                  class="hotel__main-container-about-img--2"
+                />
+                <p>
+                  Như mọi buổi sáng, câu chuyện của tôi mở ra với tiếng chim hót
+                  bên ngoài ô cửa sổ. Chợt nhớ hôm nay là thứ bảy, tôi thấy nhẹ
+                  nhõm hơn. Trong âm thanh chậm rãi của bản nhạc R&B vang lên từ
+                  chiếc loa bluetooth đã được kết nối sẵn, tôi đã tỉnh táo và
+                  sắp xếp lại chăn gối ngăn nắp. Đắm mình trong những tia nước
+                  ấm áp, tôi cảm thấy tinh thần được phục hồi để chuẩn bị cho
+                  một ngày mới.
+                </p>
+              </div>
+              <div class="hotel__main-container-about-title--3">
+                <img src="./public/img/img-9.jpg" alt="" />
+                <p>
+                  Tôi không phải là nhiếp ảnh gia chuyên nghiệp, nhưng cũng có
+                  cho mình một chiếc máy ảnh. Tôi thích đi đây đi đó để lưu giữ
+                  những bức ảnh đẹp, những khoảnh khắc thường ngày của mọi
+                  người. Dừng chân ở đây, tôi đã đến nhiều nơi ở địa phương,
+                  chụp ảnh nhiều hơn, gặp gỡ và dùng bữa với những người bạn
+                  cùng nhà. À đúng rồi, sao chúng ta không tham quan một vòng
+                  căn nhà nhỉ?
+                </p>
+              </div>
+
+              <img
+                src="./public/img/img-9.jpg"
+                alt=""
+                class="hotel__main-container-about-img--3"
+              />
+            </div>
+          </div>
+          <div
+            class="hotel__main-container-rooms"
+            id="rooms"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="hotel__main-container-rooms-heading">
+              <h1 class="heading-1">Tiện nghi như ở nhà</h1>
+              <p>
+                Dạo quanh các căn phòng bạn dễ dàng nhận ra mọi thứ ở đây đều
+                gọn gàng, tiện nghi và không gian được đề cao tính thẩm mĩ.
+              </p>
+            </div>
+            <div class="hotel__main-container-rooms-content">
+              <div class="hotel__main-container-rooms-row">
+                <div class="hotel__main-container-rooms-row-heading">
+                  <h2 class="heading-2">Blue Moon</h2>
+                  <i class="fa-solid fa-arrow-down"> </i>
+                </div>
+                <p class="hotel__main-container-rooms-row-sub">
+                  Trải nghiệm vượt ngoài bốn bức tường &#8226;
+                </p>
+                <div class="hotel__main-container-rooms-dropdown">
+                  <div class="hotel__main-container-rooms-list-img">
+                    <img src="./public/img/img-list--1.jpg" alt="" />
+                    <img src="./public/img/img-list--2.jpg" alt="" />
+                    <img src="./public/img/img-list--3.jpg" alt="" />
+                    <img src="./public/img/img-list--4.jpg" alt="" />
+                    <img src="./public/img/img-list--5.jpg" alt="" />
+                    <img src="./public/img/img-list--6.jpg" alt="" />
+                  </div>
+                  <p>
+                    Gian phòng có diện tích rộng rãi nhất nên mọi tiện nghi từ
+                    phòng ngủ đến phòng tắm đều đem lại cảm giác thoải mái. Sau
+                    một ngày làm việc bận rộn, bạn hãy ngâm mình trong làn nước
+                    ấm để vơi bớt căng thẳng. Đón gió biển ngoài sân thượng,
+                    trong khi ngồi gác chân lên ghế với ly vang đỏ trên tay. Hay
+                    chỉ đơn giản là nằm lăn ra giường xem YouTube. Đây có phải
+                    là phong cách sống mà bạn đang tìm kiếm?
+                  </p>
+                  <p><span>Đặt Phòng</span></p>
+                </div>
+              </div>
+              <div class="hotel__main-container-rooms-row">
+                <div class="hotel__main-container-rooms-row-heading">
+                  <h2 class="heading-2">Pale Blue Eyes</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-rooms-row-sub">
+                  Bạn chọn nhộn nhịp hay tĩnh lặng? &#8226;
+                </p>
+                <div class="hotel__main-container-rooms-dropdown">
+                  <div class="hotel__main-container-rooms-list-img">
+                    <img src="./public/img/img-list--7.jpg" alt="" />
+                    <img src="./public/img/img-list--8.jpg" alt="" />
+                    <img src="./public/img/img-list--9.jpg" alt="" />
+                    <img src="./public/img/img-list--10.jpg" alt="" />
+                    <img src="./public/img/img-list--11.jpg" alt="" />
+                  </div>
+                  <p>
+                    Dù phong cách của bạn là gì, căn phòng cũng dễ dàng nương
+                    theo bạn. Khi mở cửa ban công ra bạn có thể nghe được tiếng
+                    trò chuyện của những người bạn cùng nhà. Và khi khép cửa căn
+                    phòng trở lại là một không gian nhẹ nhàng, yên tĩnh. Căn
+                    phòng phù hợp với phong cách của bạn, bạn muốn mở ra hay
+                    khép cánh cửa lại?
+                  </p>
+                  <p><span>Đặt Phòng</span></p>
+                </div>
+              </div>
+              <div class="hotel__main-container-rooms-row">
+                <div class="hotel__main-container-rooms-row-heading">
+                  <h2 class="heading-2">Green River</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-rooms-row-sub">
+                  Bạn thích kiểu hẹn hò như thế nào? &#8226;
+                </p>
+                <div class="hotel__main-container-rooms-dropdown">
+                  <div class="hotel__main-container-rooms-list-img">
+                    <img src="./public/img/img-list--12.jpg" alt="" />
+                    <img src="./public/img/img-list--13.jpg" alt="" />
+                    <img src="./public/img/img-list--14.jpg" alt="" />
+                    <img src="./public/img/img-list--15.jpg" alt="" />
+                  </div>
+                  <p>
+                    Cả hai người cùng nhâm nhi ly rượu và trò chuyện ngoài ban
+                    công, hay dùng bữa trong ánh sáng lãng mạn của những ngọn
+                    nến trong không gian phòng. Dù là ở đâu đi nữa, hãy hẹn hò
+                    theo phong cách mà bạn cảm thấy thoải mái nhất. Và quyết
+                    định luôn nằm ở bạn.
+                  </p>
+                  <p><span>Đặt Phòng</span></p>
+                </div>
+              </div>
+              <div class="hotel__main-container-rooms-row">
+                <div class="hotel__main-container-rooms-row-heading">
+                  <h2 class="heading-2">Yellow Submarine</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-rooms-row-sub">
+                  Đã chán đặt phòng khách sạn? &#8226;
+                </p>
+                <div class="hotel__main-container-rooms-dropdown">
+                  <div class="hotel__main-container-rooms-list-img">
+                    <img src="./public/img/img-list--16.jpg" alt="" />
+                    <img src="./public/img/img-list--17.jpg" alt="" />
+                    <img src="./public/img/img-list--18.jpg" alt="" />
+                    <img src="./public/img/img-list--19.jpg" alt="" />
+                  </div>
+                  <p>
+                    Những căn phòng khách sạn có thiết kế như rập khuôn có làm
+                    bạn chán? Hãy tạm quên chúng đi. Cho dù đang tìm một nơi cho
+                    kỳ nghỉ của mình hay chỉ để nán lại vài hôm, bạn cần một chỗ
+                    nghỉ ngơi thoải mái, đủ khác biệt và riêng tư. Đây chính là
+                    nơi để bạn ngủ trong yên bình và thức dậy trong nắng ấm.
+                  </p>
+                  <p><span>Đặt Phòng</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="hotel__main-container-facilities"
+            id="facilities"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="hotel__main-container-facilities-heading">
+              <h1 class="heading-1">
+                Những nơi chúng tôi <br />
+                cùng gặp mặt, cùng trò chuyện
+              </h1>
+              <p>
+                Trở về nhà sau một ngày lang thang, tôi dành chút thời gian thư
+                giãn, ngâm mình trong làn nước mát mẻ, trước khi xuống dưới nhà
+                gặp gỡ bạn bè.
+              </p>
+            </div>
+            <div class="hotel__main-container-facilities-content">
+              <div class="hotel__main-container-facilities-row">
+                <div class="hotel__main-container-facilities-row-heading">
+                  <h2 class="heading-2">Gian Bếp Nhà</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-facilities-row-sub">
+                  Mỗi lần tụ họp là một bất ngờ &#8226;
+                </p>
+                <div class="hotel__main-container-facilities-dropdown">
+                  <img src="./public/img/img-list--20.jpg" alt="" />
+                  <p>
+                    Những tiếng rộn ràng quen thuộc, mùi thức ăn thơm phức. À
+                    tôi nhớ rồi, chúng tôi tổ chức tiệc đón người bạn mới, trong
+                    gian bếp thoáng đãng nằm ở trung tâm nhà. Thường thì những
+                    dịp đặc biệt như thế này mọi người sẽ tập trung để ăn uống,
+                    thay vì dùng bữa trong phòng. Bạn có muốn là host của bữa
+                    tiệc kế tiếp?
+                  </p>
+                </div>
+              </div>
+              <div class="hotel__main-container-facilities-row">
+                <div class="hotel__main-container-facilities-row-heading">
+                  <h2 class="heading-2">Phòng Chiếu Phim</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-facilities-row-sub">
+                  Rạp phim riêng tư thu nhỏ &#8226;
+                </p>
+                <div class="hotel__main-container-facilities-dropdown">
+                  <img src="./public/img/img-list--21.jpg" alt="" />
+                  <p>
+                    Phần còn lại của ngày tôi dành thời gian cho Mad Men, một
+                    series phim Mỹ nói về cuộc sống của những người làm quảng
+                    cáo. Không ai thúc giục, tôi nằm thẳng chân trong phòng
+                    chiếu phim. Đắm chìm vào những thước phim trong khi hàn
+                    huyên với bạn bè, với tay để lấy món ăn mình yêu thích. Có
+                    khi nào Netflix không ra kịp phim để bọn tôi xem?
+                  </p>
+                </div>
+              </div>
+              <div class="hotel__main-container-facilities-row">
+                <div class="hotel__main-container-facilities-row-heading">
+                  <h2 class="heading-2">Thư Viện</h2>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <p class="hotel__main-container-facilities-row-sub">
+                  Lang thang trong những trang sách &#8226;
+                </p>
+                <div class="hotel__main-container-facilities-dropdown">
+                  <img src="./public/img/img-list--22.jpg" alt="" />
+                  <p>
+                    Nhớ lúc trước, tôi mua nhiều sách lắm nhưng chẳng đọc hết.
+                    Tôi thích một không gian lý tưởng để đọc sách mà không bị
+                    xao nhãng. Rồi khi ở đây, tôi đơn giản là chọn một quyển
+                    sách có sẵn trên kệ và ngả lưng thư giãn trong khu vườn nhỏ.
+                    Ngày qua ngày, trang này sang trang kia những quyển sách nay
+                    đã không còn dang dở.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="hotel__main-container-contact"
+            id="contact"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="hotel__main-container-contact-heading">
+              <h1 class="heading-1">Liên hệ với chúng tôi</h1>
+            </div>
+            <div class="hotel__main-container-contact-content">
+              <div class="hotel__main-container-contact-inf">
+                <p>THÔNG TIN LIÊN HỆ</p>
+                <div class="hotel__main-container-contact-inf-content">
+                  <div class="hotel__main-container-contact-inf-phone">
+                    <p>Điện thoại</p>
+                    <span>+84 988 167 816</span>
+                  </div>
+                  <div class="hotel__main-container-contact-inf-email">
+                    <p>Email</p>
+                    <span>stay@thenangsuites.com</span>
+                  </div>
+                  <div class="hotel__main-container-contact-inf-address">
+                    <p>Địa chỉ</p>
+                    <p>
+                      74/31 Võ Văn Kiệt, Sơn Trà, Đà Nẵng (<span>Bản đồ</span>)
+                    </p>
+                  </div>
+                  <div class="hotel__main-container-contact-inf-flow">
+                    <p>Theo dõi</p>
+                    <a href="#!"
+                      ><img src="./public/svg/fb-icon.svg" alt=""
+                    /></a>
+                    <a href="#!"
+                      ><img src="./public/svg/ig-icon.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="hotel__main-container-contact-form">
+                <p>ĐỂ BIẾT THÊM CHI TIẾT</p>
+                <div class="hotel__main-container-contact-form-content">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Tên (bắt buộc)"
+                  />
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="Email (bắt buộc)"
+                  />
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Điện thoại (bắt buộc)"
+                  />
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Lời nhắn (bắt buộc)"
+                  ></textarea>
+                </div>
+                <span>Gửi đi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ disable: "mobile" });
+    </script>
+    <script src="./public/javascript/app.js"></script>
+  </body>
+</html>
